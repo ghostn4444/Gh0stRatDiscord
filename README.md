@@ -112,3 +112,6 @@ python setup.py build
 <br/>
 
 # Compilando em um arquivo (.zip)
+```powershell
+Compress-Archive -Path 'build' -DestinationPath 'C:\Users\***NAMEUSER***\Downloads\Documents.zip'
+```
