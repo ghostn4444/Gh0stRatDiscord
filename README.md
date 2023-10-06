@@ -42,15 +42,6 @@ history - Extracts all browser history
 pip install -r requirements.txt
 ```
 
-<br/>
-
-# Bot do Discord
-* Criar BOT
-* Configurar BOT
-* Adicionar BOT
-
-<br/>
-
 # Configuração RAT
 ```python
 guild_id = ""  # ID do canal/servidor do Discord
@@ -115,3 +106,67 @@ python setup.py build
 ```powershell
 Compress-Archive -Path 'build' -DestinationPath 'C:\Users\***NAMEUSER***\Downloads\Documents.zip'
 ```
+<br/>
+
+# Bot do Discord
+Certifique-se de estar logado no site do Discord.<br>
+Navegue até a página de aplicações.
+<hr/>
+<h3> 
+    Acesse o Link para criar seu Bot: <a targer="_blank" href="https://discord.com/developers">Discord Developers</a>
+</h3>
+<hr/>
+       
+###  Clique no botão "New Application" (Nova aplicação).       
+<img width="300px" src="https://github.com/ghostn4444/Gh0stRatDiscord/assets/114788746/c0498d2e-97f8-4f0a-bfa3-0c6ff1d995a9">
+<br>
+<hr/>
+
+### Dê um nome à sua aplicação e clique em "Create" (Criar)
+<img width="300px" src="https://github.com/ghostn4444/Gh0stRatDiscord/assets/114788746/6518f879-bf4c-435b-ba38-e78a90ed9cf2">
+<br>
+<hr/>
+
+### Vá até a guia "Bot" e clique em "Add Bot" (Adicionar bot). Você terá que confirmar, clicando em "Yes, do it!" (Sim, faça isso!).
+<img width="610px" src="https://github.com/ghostn4444/Gh0stRatDiscord/assets/114788746/962960eb-e175-439f-af56-335cb6a4b36a">
+<br>
+<hr/>
+
+### Mantenha as configurações padrão para Public Bot (Bot público - marcada) e Require OAuth2 Code Grant (Exigir autorização de código OAuth2 - desmarcada).
+
+Seu bot foi criado. A próxima etapa é copiar o token.
+
+<img width="610px" src="https://github.com/ghostn4444/Gh0stRatDiscord/assets/114788746/2af70800-900e-4757-8488-a0f662f0ce2a">
+<br>
+Este token é a senha do seu bot. Por isso, não o compartilhe com ninguém. Isso pode permitir que alguém faça o login com seu bot e faça o que quiser com ele. 
+Você pode gerar novamente o token se ele for compartilhado por acidente.
+
+<hr/>
+<br>
+
+# Como convidar seu bot para participar de um servidor
+
+### Agora, você precisa colocar seu usuário bot em um servidor. Para fazer isso, crie um URL de convite para ele.
+Vá para a guia "OAuth2" e selecione "bot" na seção "scopes" (Escopos).
+
+<img width="610px" src="https://github.com/ghostn4444/Gh0stRatDiscord/assets/114788746/c9bdba63-b866-4dbc-be54-cf4cd86c9059">
+
+<br>
+
+Em seguida, escolha as permissões que você quer que o bot tenha. O bot usará, principalmente, mensagens de texto. Assim, não precisamos de muitas permissões. Você pode precisar de mais, dependendo do que você quer que o bot possa fazer. Cuidado com a permissão de "Administrator" (Administrador).
+
+<hr/>
+
+<img width="610px" src="https://github.com/ghostn4444/Gh0stRatDiscord/assets/114788746/bee9f4d9-75f5-403a-89c2-3935ea1890fd">
+
+<br>
+<br>
+
+### Depois de selecionar as permissões apropriadas, clique no botão 'copy' (Copiar) acima das permissões. Isso copiará o URL, que pode ser usado para adicionar o bot ao servidor.
+
+Cole o URL em seu navegador, selecione um servidor para o qual você convidará o bot e clique em "Authorize" (Autorizar).
+
+Para adicionar o bot, sua conta precisa da permissão "Manage Server" (Gerenciar servidor).
+Agora que você criou o usuário bot, vamos começar a escrever o código em Python para ele.
+
+<hr/>
