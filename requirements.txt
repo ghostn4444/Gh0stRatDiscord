@@ -1,0 +1,1 @@
+discord==1.0.1 requests==2.22.0 PIL==7.0.0 Crypto==1.4.1 zipfile==0.5.1 cx_Freeze==6.0
